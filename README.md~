@@ -7,7 +7,7 @@
 ## DOL 安装笔记
 * ** 安装一些必要的环境**
 ``` 
-$	sudo apt-get update
+$	sudo apt-get update  
 $	sudo apt-get install ant 
 $	sudo apt-get install openjdk-7-jdk
 $	sudo apt-get install unzip```
