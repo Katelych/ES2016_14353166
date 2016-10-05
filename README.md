@@ -71,9 +71,10 @@ sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
  - 修改build_zip.xml文件，找到下面这段话，就是说上面编译的systemc位置在哪里，
 
     > property name="systemc.inc" value="YYY/include"/
+    
     > property name="systemc.lib" value="YYY/lib-linux/libsystemc.a"/
 
-    把YYY改成pwd的结果（注意，对于64位Ubantu系统的机器，lib-linux要改成lib-linux64）
+   把YYY改成pwd的结果（注意，对于64位Ubantu系统的机器，lib-linux要改成lib-linux64）
 
  - 然后是编译:
 
