@@ -58,7 +58,7 @@ sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
 
    `$	pwd`
 
-   ![路径](https://github.com/Katelych/ES2016_14353166/blob/master/1.png)
+   ![路径](https://raw.githubusercontent.com/Katelych/ES2016_14353166/master/1.png)
 
    这里表示我当前的工作路径为 /home/lyc/systemc-2.3.1
 
@@ -90,9 +90,9 @@ sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip
 
      `$	sudo ant -f runexample.xml -Dnumber=1`
 
-    成功结果如图:
+   成功结果如图:
 
-    ![成功结果图](https://github.com/Katelych/ES2016_14353166/blob/master/2.png)
+   ![成功结果图](https://github.com/Katelych/ES2016_14353166/raw/master/2.png)
 
 # Experimental experience
 
