@@ -1,23 +1,28 @@
 # Description
 ## DOL 框架描述
-**Distributed Operation Layer : **
- The distributed operation layer (DOL) is a software development framework to program parallel applications. The DOL allows to specify applications based on the Kahn process network model of computation and features a simulation engine based on SystemC. Moreover, the DOL provides an XML-based specification format to describe the implementation of a parallel application on a multi-processor systems, including binding and mapping.
+**Distributed Operation Layer :**
+The distributed operation layer (DOL) is a software development framework to program parallel applications. The DOL allows to specify applications based on the Kahn process network model of computation and features a simulation engine based on SystemC. Moreover, the DOL provides an XML-based specification format to describe the implementation of a parallel application on a multi-processor systems, including binding and mapping.
 
 # How to install
 ## DOL 安装笔记
-* ** 安装一些必要的环境**
-``` 
-$	sudo apt-get update
+* **安装一些必要的环境**
+
+   ```  
+$	sudo apt-get update  
 $	sudo apt-get install ant 
 $	sudo apt-get install openjdk-7-jdk
-$	sudo apt-get install unzip```
+$	sudo apt-get install unzip
+   ```
 
-* ** 下载文件**
-```
-sudo wget http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.1.tgz 
-sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip ```
 
-* ** 解压文件**
+* **下载文件**
+ 
+   ```
+sudo wget http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.1.tgz   
+sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip 
+   ```
+
+* **解压文件**
 新建dol的文件夹:
 `$	mkdir dol`
 将dolethz.zip解压到 dol文件夹中:
@@ -25,7 +30,7 @@ sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip ```
 解压systemc:
 `$	tar -zxvf systemc-2.3.1.tgz`
 
-* ** 编译systemc**
+* **编译systemc**
 解压后进入systemc-2.3.1的目录下:
 `$	cd systemc-2.3.1`
 新建一个临时文件夹objdir:
@@ -41,7 +46,7 @@ sudo wget http://www.tik.ee.ethz.ch/~shapes/downloads/dol_ethz.zip ```
 ![路径](1.png)
 这里表示我当前的工作路径为 /home/lyc/systemc-2.3.1
 
-* ** 编译dol**
+* **编译dol**
 进入刚刚dol的文件夹:
 `$	cd ../dol`
 修改build_zip.xml文件:
