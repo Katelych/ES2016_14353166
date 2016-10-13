@@ -2,7 +2,7 @@
 ## 1.Task 1: 修改example2，让3个square模块变成2个：修改xml的iterator，将3改成2
 * 改完的*.dot图：
 
-  ![example2](lab3_example2.png)
+  ![example2](https://github.com/Katelych/ES2016_14353166/blob/master/assignment/lab3_example2.png?raw=true)
 
 * 修改方法：
   ```
@@ -98,14 +98,14 @@
   
 * 以下是实验结果截图：
     
-   ![example2_2](lab3_example2_result.png)
+   ![example2_2](https://github.com/Katelych/ES2016_14353166/blob/master/assignment/lab3_example2_result.png?raw=true)
   
   可看出，0，1，2，3，4，……19的平方的平方分别为0，1，16，81，256，130321.实验结果正确。
 
-## 1.Task 2:修改example1，使其输出3次方数：修改square.c，将i=i\*i改成i=i\*i\*i就好了
+## 2.Task 2:修改example1，使其输出3次方数：修改square.c，将i=i\*i改成i=i\*i\*i就好了
 * 改完的*.dot图：
 
-  ![example1](lab3_example1.png)
+  ![example1](https://github.com/Katelych/ES2016_14353166/blob/master/assignment/lab3_example1.png?raw=true)
   
 * 修改方法：
   进入dol/examples/example1/src,修改square.c文件，将i=i\*i改成i=i\*i\*i，具体代码如下：
@@ -142,7 +142,7 @@
   因为原本的代码是输出平方，这里要求输出3次方，那就再多乘一个i就好了。
 * 实验结果截图：
   
-  ![lab3_example1_2](lab3_example1_result.png)
+  ![lab3_example1_2](https://github.com/Katelych/ES2016_14353166/blob/master/assignment/lab3_example1_result.png?raw=true)
 
   可看出0，1，2，3，……19的3次方分别是0，1，8，27，……6859，实验结果正确。
 
